@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CxImage - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xuwenjun\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\jpeg" /I "..\png" /I "..\zlib" /I "..\mng" /I "..\tiff" /I "..\j2k" /I "..\jasper\include" /D "_LIB" /D "JAS_WIN_MSVC_BUILD" /D "WIN32" /D "NDEBUG" /D "_UNICODE" /D "UNICODE" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NON_CONFORMING_SWPRINTFS" /FR"Unicode_Release/" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"D:\许文俊工程\NRClient\NRClient\CxImage\tif_xfile.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximabmp.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximadsp.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximaenc.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximaexif.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\xImage.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximagif.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximahist.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximaico.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximainfo.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximaint.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximajas.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximajbg.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximajpg.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximalpha.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximalyr.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximamng.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximapal.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximapcx.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximapng.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximaraw.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximasel.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximaska.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximatga.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximath.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximatif.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximatran.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximawbmp.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximawmf.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\ximawnd.cpp"
+"D:\许文俊工程\NRClient\NRClient\CxImage\xmemfile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xuwenjun\LOCALS~1\Temp\RSPD.tmp" 
+<h3>Output Window</h3>
+Compiling...
+tif_xfile.cpp
+D:\许文俊工程\NRClient\NRClient\CxImage\tif_xfile.cpp(14) : fatal error C1083: Cannot open include file: '../tiff/tiffiop.h': No such file or directory
+ximabmp.cpp
+ximadsp.cpp
+ximaenc.cpp
+D:\许文俊工程\NRClient\NRClient\CxImage\ximajpg.h(32) : fatal error C1083: Cannot open include file: '../jpeg/jpeglib.h': No such file or directory
+ximaexif.cpp
+D:\许文俊工程\NRClient\NRClient\CxImage\ximajpg.h(32) : fatal error C1083: Cannot open include file: '../jpeg/jpeglib.h': No such file or directory
+xImage.cpp
+ximagif.cpp
+ximahist.cpp
+ximaico.cpp
+ximainfo.cpp
+ximaint.cpp
+ximajas.cpp
+D:\许文俊工程\NRClient\NRClient\CxImage\ximajas.h(19) : fatal error C1083: Cannot open include file: '../jasper/include/jasper/jasper.h': No such file or directory
+ximajbg.cpp
+ximajpg.cpp
+D:\许文俊工程\NRClient\NRClient\CxImage\ximajpg.h(32) : fatal error C1083: Cannot open include file: '../jpeg/jpeglib.h': No such file or directory
+ximalpha.cpp
+ximalyr.cpp
+ximamng.cpp
+D:\许文俊工程\NRClient\NRClient\CxImage\ximamng.h(34) : fatal error C1083: Cannot open include file: '../mng/libmng.h': No such file or directory
+ximapal.cpp
+ximapcx.cpp
+ximapng.cpp
+D:\许文俊工程\NRClient\NRClient\CxImage\ximapng.h(25) : fatal error C1083: Cannot open include file: '../png/png.h': No such file or directory
+Generating Code...
+Compiling...
+ximaraw.cpp
+D:\许文俊工程\NRClient\NRClient\CxImage\ximaraw.h(24) : fatal error C1083: Cannot open include file: '../raw/libdcr.h': No such file or directory
+ximasel.cpp
+ximaska.cpp
+ximatga.cpp
+ximath.cpp
+ximatif.cpp
+D:\许文俊工程\NRClient\NRClient\CxImage\ximatif.h(26) : fatal error C1083: Cannot open include file: '../tiff/tiffio.h': No such file or directory
+ximatran.cpp
+ximawbmp.cpp
+ximawmf.cpp
+ximawnd.cpp
+xmemfile.cpp
+Generating Code...
+执行 cl.exe 时出错.
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\xuwenjun\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+/nologo /o"Unicode_Release/CxImage.bsc" 
+".\Unicode_Release\tif_xfile.sbr"
+".\Unicode_Release\ximabmp.sbr"
+".\Unicode_Release\ximadsp.sbr"
+".\Unicode_Release\ximaenc.sbr"
+".\Unicode_Release\ximaexif.sbr"
+".\Unicode_Release\xImage.sbr"
+".\Unicode_Release\ximagif.sbr"
+".\Unicode_Release\ximahist.sbr"
+".\Unicode_Release\ximaico.sbr"
+".\Unicode_Release\ximainfo.sbr"
+".\Unicode_Release\ximaint.sbr"
+".\Unicode_Release\ximajas.sbr"
+".\Unicode_Release\ximajbg.sbr"
+".\Unicode_Release\ximajpg.sbr"
+".\Unicode_Release\ximalpha.sbr"
+".\Unicode_Release\ximalyr.sbr"
+".\Unicode_Release\ximamng.sbr"
+".\Unicode_Release\ximapal.sbr"
+".\Unicode_Release\ximapcx.sbr"
+".\Unicode_Release\ximapng.sbr"
+".\Unicode_Release\ximaraw.sbr"
+".\Unicode_Release\ximasel.sbr"
+".\Unicode_Release\ximaska.sbr"
+".\Unicode_Release\ximatga.sbr"
+".\Unicode_Release\ximath.sbr"
+".\Unicode_Release\ximatif.sbr"
+".\Unicode_Release\ximatran.sbr"
+".\Unicode_Release\ximawbmp.sbr"
+".\Unicode_Release\ximawmf.sbr"
+".\Unicode_Release\ximawnd.sbr"
+".\Unicode_Release\xmemfile.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\xuwenjun\LOCALS~1\Temp\RSPE.tmp"
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CxImage.lib - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

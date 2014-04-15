@@ -1,0 +1,819 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: jbig - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSPE329.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "_LIB" /D "WIN32" /D "NDEBUG" /D "_UNICODE" /D "UNICODE" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jbig\jbig.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jbig\jbig_tab.c"
+]
+Creating command line "cl.exe @C:\Users\xu\AppData\Local\Temp\RSPE329.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Unicode_Release\jbig.lib"  ".\Unicode_Release\jbig.obj" ".\Unicode_Release\jbig_tab.obj" "
+<h3>Output Window</h3>
+Compiling...
+jbig.c
+jbig_tab.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: jpeg - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSPE608.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "_WINDOWS" /D "WIN32" /D "NDEBUG" /D "_UNICODE" /D "UNICODE" /D "_CRT_SECURE_NO_DEPRECATE" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcapimin.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcapistd.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jccoefct.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jccolor.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcdctmgr.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jchuff.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcinit.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcmainct.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcmarker.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcmaster.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcomapi.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcparam.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcphuff.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcprepct.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jcsample.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jctrans.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdapimin.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdapistd.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdatadst.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdatasrc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdcoefct.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdcolor.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jddctmgr.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdhuff.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdinput.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdmainct.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdmarker.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdmaster.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdmerge.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdphuff.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdpostct.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdsample.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jdtrans.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jerror.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jfdctflt.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jfdctfst.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jfdctint.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jidctflt.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jidctfst.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jidctint.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jidctred.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jmemmgr.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jmemnobs.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jquant1.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jquant2.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Jutils.c"
+]
+Creating command line "cl.exe @C:\Users\xu\AppData\Local\Temp\RSPE608.tmp" 
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSPE609.tmp" with contents
+[
+/nologo /out:"Unicode_Release\Jpeg.lib" 
+".\Unicode_Release\Jcapimin.obj"
+".\Unicode_Release\Jcapistd.obj"
+".\Unicode_Release\Jccoefct.obj"
+".\Unicode_Release\Jccolor.obj"
+".\Unicode_Release\Jcdctmgr.obj"
+".\Unicode_Release\Jchuff.obj"
+".\Unicode_Release\Jcinit.obj"
+".\Unicode_Release\Jcmainct.obj"
+".\Unicode_Release\Jcmarker.obj"
+".\Unicode_Release\Jcmaster.obj"
+".\Unicode_Release\Jcomapi.obj"
+".\Unicode_Release\Jcparam.obj"
+".\Unicode_Release\Jcphuff.obj"
+".\Unicode_Release\Jcprepct.obj"
+".\Unicode_Release\Jcsample.obj"
+".\Unicode_Release\Jctrans.obj"
+".\Unicode_Release\Jdapimin.obj"
+".\Unicode_Release\Jdapistd.obj"
+".\Unicode_Release\Jdatadst.obj"
+".\Unicode_Release\Jdatasrc.obj"
+".\Unicode_Release\Jdcoefct.obj"
+".\Unicode_Release\Jdcolor.obj"
+".\Unicode_Release\Jddctmgr.obj"
+".\Unicode_Release\Jdhuff.obj"
+".\Unicode_Release\Jdinput.obj"
+".\Unicode_Release\Jdmainct.obj"
+".\Unicode_Release\Jdmarker.obj"
+".\Unicode_Release\Jdmaster.obj"
+".\Unicode_Release\Jdmerge.obj"
+".\Unicode_Release\Jdphuff.obj"
+".\Unicode_Release\Jdpostct.obj"
+".\Unicode_Release\Jdsample.obj"
+".\Unicode_Release\Jdtrans.obj"
+".\Unicode_Release\Jerror.obj"
+".\Unicode_Release\Jfdctflt.obj"
+".\Unicode_Release\Jfdctfst.obj"
+".\Unicode_Release\Jfdctint.obj"
+".\Unicode_Release\Jidctflt.obj"
+".\Unicode_Release\Jidctfst.obj"
+".\Unicode_Release\Jidctint.obj"
+".\Unicode_Release\Jidctred.obj"
+".\Unicode_Release\Jmemmgr.obj"
+".\Unicode_Release\Jmemnobs.obj"
+".\Unicode_Release\Jquant1.obj"
+".\Unicode_Release\Jquant2.obj"
+".\Unicode_Release\Jutils.obj"
+]
+Creating command line "link.exe -lib @C:\Users\xu\AppData\Local\Temp\RSPE609.tmp"
+<h3>Output Window</h3>
+Compiling...
+Jcapimin.c
+Jcapistd.c
+Jccoefct.c
+Jccolor.c
+Jcdctmgr.c
+Jchuff.c
+Jcinit.c
+Jcmainct.c
+Jcmarker.c
+Jcmaster.c
+Jcomapi.c
+Jcparam.c
+Jcphuff.c
+Jcprepct.c
+Jcsample.c
+Jctrans.c
+Jdapimin.c
+Jdapistd.c
+Jdatadst.c
+Jdatasrc.c
+Generating Code...
+Compiling...
+Jdcoefct.c
+Jdcolor.c
+Jddctmgr.c
+Jdhuff.c
+Jdinput.c
+Jdmainct.c
+Jdmarker.c
+Jdmaster.c
+Jdmerge.c
+Jdphuff.c
+Jdpostct.c
+Jdsample.c
+Jdtrans.c
+Jerror.c
+Jfdctflt.c
+Jfdctfst.c
+Jfdctint.c
+Jidctflt.c
+Jidctfst.c
+Jidctint.c
+Generating Code...
+Compiling...
+Jidctred.c
+Jmemmgr.c
+Jmemnobs.c
+Jquant1.c
+Jquant2.c
+Jutils.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: png - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSPEF8B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\zlib" /D "_WINDOWS" /D "WIN32" /D "NDEBUG" /D "_UNICODE" /D "UNICODE" /D "_CRT_SECURE_NO_DEPRECATE" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\png.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngerror.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngget.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngmem.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngpread.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngread.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngrio.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngrtran.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngrutil.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngset.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngtrans.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngvcrd.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngwio.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngwrite.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngwtran.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\png\pngwutil.c"
+]
+Creating command line "cl.exe @C:\Users\xu\AppData\Local\Temp\RSPEF8B.tmp" 
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSPEF8C.tmp" with contents
+[
+/nologo /out:"Unicode_Release\png.lib" 
+".\Unicode_Release\png.obj"
+".\Unicode_Release\pngerror.obj"
+".\Unicode_Release\pngget.obj"
+".\Unicode_Release\pngmem.obj"
+".\Unicode_Release\pngpread.obj"
+".\Unicode_Release\pngread.obj"
+".\Unicode_Release\pngrio.obj"
+".\Unicode_Release\pngrtran.obj"
+".\Unicode_Release\pngrutil.obj"
+".\Unicode_Release\pngset.obj"
+".\Unicode_Release\pngtrans.obj"
+".\Unicode_Release\pngvcrd.obj"
+".\Unicode_Release\pngwio.obj"
+".\Unicode_Release\pngwrite.obj"
+".\Unicode_Release\pngwtran.obj"
+".\Unicode_Release\pngwutil.obj"
+]
+Creating command line "link.exe -lib @C:\Users\xu\AppData\Local\Temp\RSPEF8C.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: tiff - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSPF69F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /I "..\zlib" /D "_LIB" /D "WIN32" /D "NDEBUG" /D "_UNICODE" /D "UNICODE" /D "_CRT_SECURE_NO_DEPRECATE" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\fax3sm_winnt.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_aux.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_close.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_codec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_compress.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_dir.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_dirinfo.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_dirread.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_dirwrite.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_dumpmode.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_error.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_fax3.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_flush.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_getimage.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_jpeg.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_luv.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_lzw.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_next.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_ojpeg.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_open.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_packbits.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_pixarlog.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_predict.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_print.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_read.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_strip.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_swab.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_thunder.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_tile.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_version.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_warning.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_write.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\tiff\tif_zip.c"
+]
+Creating command line "cl.exe @C:\Users\xu\AppData\Local\Temp\RSPF69F.tmp" 
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSPF6A0.tmp" with contents
+[
+/nologo /out:"Unicode_Release\Tiff.lib" 
+".\Unicode_Release\fax3sm_winnt.obj"
+".\Unicode_Release\tif_aux.obj"
+".\Unicode_Release\tif_close.obj"
+".\Unicode_Release\tif_codec.obj"
+".\Unicode_Release\tif_compress.obj"
+".\Unicode_Release\tif_dir.obj"
+".\Unicode_Release\tif_dirinfo.obj"
+".\Unicode_Release\tif_dirread.obj"
+".\Unicode_Release\tif_dirwrite.obj"
+".\Unicode_Release\tif_dumpmode.obj"
+".\Unicode_Release\tif_error.obj"
+".\Unicode_Release\tif_fax3.obj"
+".\Unicode_Release\tif_flush.obj"
+".\Unicode_Release\tif_getimage.obj"
+".\Unicode_Release\tif_jpeg.obj"
+".\Unicode_Release\tif_luv.obj"
+".\Unicode_Release\tif_lzw.obj"
+".\Unicode_Release\tif_next.obj"
+".\Unicode_Release\tif_ojpeg.obj"
+".\Unicode_Release\tif_open.obj"
+".\Unicode_Release\tif_packbits.obj"
+".\Unicode_Release\tif_pixarlog.obj"
+".\Unicode_Release\tif_predict.obj"
+".\Unicode_Release\tif_print.obj"
+".\Unicode_Release\tif_read.obj"
+".\Unicode_Release\tif_strip.obj"
+".\Unicode_Release\tif_swab.obj"
+".\Unicode_Release\tif_thunder.obj"
+".\Unicode_Release\tif_tile.obj"
+".\Unicode_Release\tif_version.obj"
+".\Unicode_Release\tif_warning.obj"
+".\Unicode_Release\tif_write.obj"
+".\Unicode_Release\tif_zip.obj"
+]
+Creating command line "link.exe -lib @C:\Users\xu\AppData\Local\Temp\RSPF6A0.tmp"
+<h3>Output Window</h3>
+Compiling...
+fax3sm_winnt.c
+tif_aux.c
+tif_close.c
+tif_codec.c
+tif_compress.c
+tif_dir.c
+tif_dirinfo.c
+tif_dirread.c
+tif_dirwrite.c
+tif_dumpmode.c
+tif_error.c
+tif_fax3.c
+tif_flush.c
+tif_getimage.c
+tif_jpeg.c
+tif_luv.c
+tif_lzw.c
+tif_next.c
+tif_ojpeg.c
+tif_open.c
+Generating Code...
+Compiling...
+tif_packbits.c
+tif_pixarlog.c
+tif_predict.c
+tif_print.c
+tif_read.c
+tif_strip.c
+tif_swab.c
+tif_thunder.c
+tif_tile.c
+tif_version.c
+tif_warning.c
+tif_write.c
+tif_zip.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: zlib - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSP1AC4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "_WINDOWS" /D "WIN32" /D "NDEBUG" /D "_UNICODE" /D "UNICODE" /D "_CRT_SECURE_NO_DEPRECATE" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\adler32.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\compress.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\crc32.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\deflate.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\gzio.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\infback.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\inffast.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\inflate.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\inftrees.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\trees.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\uncompr.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\Users\xu\AppData\Local\Temp\RSP1AC4.tmp" 
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSP1AC5.tmp" with contents
+[
+/nologo /out:"Unicode_Release\zlib.lib" 
+".\Unicode_Release\adler32.obj"
+".\Unicode_Release\compress.obj"
+".\Unicode_Release\crc32.obj"
+".\Unicode_Release\deflate.obj"
+".\Unicode_Release\gzio.obj"
+".\Unicode_Release\infback.obj"
+".\Unicode_Release\inffast.obj"
+".\Unicode_Release\inflate.obj"
+".\Unicode_Release\inftrees.obj"
+".\Unicode_Release\trees.obj"
+".\Unicode_Release\uncompr.obj"
+".\Unicode_Release\zutil.obj"
+]
+Creating command line "link.exe -lib @C:\Users\xu\AppData\Local\Temp\RSP1AC5.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: jasper - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSP1ECB.tmp" with contents
+[
+/nologo /MD /W2 /GX /O2 /I ".\include" /D "_LIB" /D "JAS_WIN_MSVC_BUILD" /D "WIN32" /D "NDEBUG" /D "_UNICODE" /D "UNICODE" /D "_CRT_SECURE_NO_DEPRECATE" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\bmp\bmp_cod.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\bmp\bmp_dec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\bmp\bmp_enc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_cm.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_debug.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_getopt.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_icc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_iccdata.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_image.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_init.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_malloc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_seq.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_stream.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_string.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_tvp.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\base\jas_version.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jp2\jp2_cod.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jp2\jp2_dec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jp2\jp2_enc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_bs.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_cs.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_dec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_enc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_math.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_mct.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_mqcod.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_mqdec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_mqenc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_qmfb.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_t1cod.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_t1dec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_t1enc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_t2cod.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_t2dec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_t2enc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_tagtree.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_tsfb.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpc\jpc_util.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpg\jpg_dummy.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\jpg\jpg_val.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\mif\mif_cod.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\pgx\pgx_cod.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\pgx\pgx_dec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\pgx\pgx_enc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\pnm\pnm_cod.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\pnm\pnm_dec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\pnm\pnm_enc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\ras\ras_cod.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\ras\ras_dec.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\jasper\ras\ras_enc.c"
+]
+Creating command line "cl.exe @C:\Users\xu\AppData\Local\Temp\RSP1ECB.tmp" 
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSP1ECC.tmp" with contents
+[
+/nologo /out:"Unicode_Release\jasper.lib" 
+".\Unicode_Release\bmp_cod.obj"
+".\Unicode_Release\bmp_dec.obj"
+".\Unicode_Release\bmp_enc.obj"
+".\Unicode_Release\jas_cm.obj"
+".\Unicode_Release\jas_debug.obj"
+".\Unicode_Release\jas_getopt.obj"
+".\Unicode_Release\jas_icc.obj"
+".\Unicode_Release\jas_iccdata.obj"
+".\Unicode_Release\jas_image.obj"
+".\Unicode_Release\jas_init.obj"
+".\Unicode_Release\jas_malloc.obj"
+".\Unicode_Release\jas_seq.obj"
+".\Unicode_Release\jas_stream.obj"
+".\Unicode_Release\jas_string.obj"
+".\Unicode_Release\jas_tvp.obj"
+".\Unicode_Release\jas_version.obj"
+".\Unicode_Release\jp2_cod.obj"
+".\Unicode_Release\jp2_dec.obj"
+".\Unicode_Release\jp2_enc.obj"
+".\Unicode_Release\jpc_bs.obj"
+".\Unicode_Release\jpc_cs.obj"
+".\Unicode_Release\jpc_dec.obj"
+".\Unicode_Release\jpc_enc.obj"
+".\Unicode_Release\jpc_math.obj"
+".\Unicode_Release\jpc_mct.obj"
+".\Unicode_Release\jpc_mqcod.obj"
+".\Unicode_Release\jpc_mqdec.obj"
+".\Unicode_Release\jpc_mqenc.obj"
+".\Unicode_Release\jpc_qmfb.obj"
+".\Unicode_Release\jpc_t1cod.obj"
+".\Unicode_Release\jpc_t1dec.obj"
+".\Unicode_Release\jpc_t1enc.obj"
+".\Unicode_Release\jpc_t2cod.obj"
+".\Unicode_Release\jpc_t2dec.obj"
+".\Unicode_Release\jpc_t2enc.obj"
+".\Unicode_Release\jpc_tagtree.obj"
+".\Unicode_Release\jpc_tsfb.obj"
+".\Unicode_Release\jpc_util.obj"
+".\Unicode_Release\jpg_dummy.obj"
+".\Unicode_Release\jpg_val.obj"
+".\Unicode_Release\mif_cod.obj"
+".\Unicode_Release\pgx_cod.obj"
+".\Unicode_Release\pgx_dec.obj"
+".\Unicode_Release\pgx_enc.obj"
+".\Unicode_Release\pnm_cod.obj"
+".\Unicode_Release\pnm_dec.obj"
+".\Unicode_Release\pnm_enc.obj"
+".\Unicode_Release\ras_cod.obj"
+".\Unicode_Release\ras_dec.obj"
+".\Unicode_Release\ras_enc.obj"
+]
+Creating command line "link.exe -lib @C:\Users\xu\AppData\Local\Temp\RSP1ECC.tmp"
+<h3>Output Window</h3>
+Compiling...
+bmp_cod.c
+bmp_dec.c
+bmp_enc.c
+jas_cm.c
+jas_debug.c
+jas_getopt.c
+jas_icc.c
+jas_iccdata.c
+jas_image.c
+jas_init.c
+jas_malloc.c
+jas_seq.c
+jas_stream.c
+jas_string.c
+jas_tvp.c
+jas_version.c
+jp2_cod.c
+jp2_dec.c
+jp2_enc.c
+jpc_bs.c
+Generating Code...
+Compiling...
+jpc_cs.c
+jpc_dec.c
+jpc_enc.c
+jpc_math.c
+jpc_mct.c
+jpc_mqcod.c
+jpc_mqdec.c
+jpc_mqenc.c
+jpc_qmfb.c
+jpc_t1cod.c
+jpc_t1dec.c
+jpc_t1enc.c
+jpc_t2cod.c
+jpc_t2dec.c
+jpc_t2enc.c
+jpc_tagtree.c
+jpc_tsfb.c
+jpc_util.c
+jpg_dummy.c
+jpg_val.c
+Generating Code...
+Compiling...
+mif_cod.c
+pgx_cod.c
+pgx_dec.c
+pgx_enc.c
+pnm_cod.c
+pnm_dec.c
+pnm_enc.c
+ras_cod.c
+ras_dec.c
+ras_enc.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: mng - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSP4FCC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "MNG_SUPPORT_DISPLAY" /D "MNG_SUPPORT_READ" /D "MNG_SUPPORT_WRITE" /D "MNG_ACCESS_CHUNKS" /D "MNG_STORE_CHUNKS" /D "_UNICODE" /D "UNICODE" /D "_CRT_SECURE_NO_DEPRECATE" /D "MNG_ERROR_TELLTALE" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_callback_xs.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_chunk_descr.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_chunk_io.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_chunk_prc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_chunk_xs.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_cms.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_display.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_dither.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_error.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_filter.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_hlapi.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_jpeg.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_object_prc.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_pixels.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_prop_xs.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_read.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_trace.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_write.c"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\mng\libmng_zlib.c"
+]
+Creating command line "cl.exe @C:\Users\xu\AppData\Local\Temp\RSP4FCC.tmp" 
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSP4FCD.tmp" with contents
+[
+/nologo /out:"Unicode_Release\mng.lib" 
+".\Unicode_Release\libmng_callback_xs.obj"
+".\Unicode_Release\libmng_chunk_descr.obj"
+".\Unicode_Release\libmng_chunk_io.obj"
+".\Unicode_Release\libmng_chunk_prc.obj"
+".\Unicode_Release\libmng_chunk_xs.obj"
+".\Unicode_Release\libmng_cms.obj"
+".\Unicode_Release\libmng_display.obj"
+".\Unicode_Release\libmng_dither.obj"
+".\Unicode_Release\libmng_error.obj"
+".\Unicode_Release\libmng_filter.obj"
+".\Unicode_Release\libmng_hlapi.obj"
+".\Unicode_Release\libmng_jpeg.obj"
+".\Unicode_Release\libmng_object_prc.obj"
+".\Unicode_Release\libmng_pixels.obj"
+".\Unicode_Release\libmng_prop_xs.obj"
+".\Unicode_Release\libmng_read.obj"
+".\Unicode_Release\libmng_trace.obj"
+".\Unicode_Release\libmng_write.obj"
+".\Unicode_Release\libmng_zlib.obj"
+]
+Creating command line "link.exe -lib @C:\Users\xu\AppData\Local\Temp\RSP4FCD.tmp"
+<h3>Output Window</h3>
+Compiling...
+libmng_callback_xs.c
+libmng_chunk_descr.c
+libmng_chunk_io.c
+libmng_chunk_prc.c
+libmng_chunk_xs.c
+libmng_cms.c
+libmng_display.c
+libmng_dither.c
+libmng_error.c
+libmng_filter.c
+libmng_hlapi.c
+libmng_jpeg.c
+libmng_object_prc.c
+libmng_pixels.c
+libmng_prop_xs.c
+libmng_read.c
+libmng_trace.c
+libmng_write.c
+libmng_zlib.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: libdcr - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSP5D26.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_LIB" /D "_UNICODE" /D "UNICODE" /D "_CRT_SECURE_NO_DEPRECATE" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\raw\libdcr.c"
+]
+Creating command line "cl.exe @C:\Users\xu\AppData\Local\Temp\RSP5D26.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Unicode_Release\libdcr.lib"  ".\Unicode_Release\libdcr.obj" "
+<h3>Output Window</h3>
+Compiling...
+libdcr.c
+Creating library...
+<h3>
+--------------------Configuration: CxImageCrtDll - Win32 Unicode Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Unicode_Release/CxImageCrtDll.res" /d "NDEBUG" "C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\CxImageDLL\CxImageCrtDll.rc"" 
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSP66B8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../zlib" /I "../../jasper/include" /D "_WINDOWS" /D "_USRDLL" /D "JAS_WIN_MSVC_BUILD" /D "WIN32" /D "NDEBUG" /D "_UNICODE" /D "UNICODE" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NON_CONFORMING_SWPRINTFS" /Fo"Unicode_Release/" /Fd"Unicode_Release/" /FD /c 
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\CxImageDLL\CxImageCrtDll.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\tif_xfile.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximabmp.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximadsp.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximaenc.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximaexif.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximage.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximagif.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximahist.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximaico.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximainfo.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximaint.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximajas.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximajbg.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximajpg.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximalpha.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximalyr.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximamng.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximapal.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximapcx.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximapng.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximaraw.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximasel.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximaska.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximatga.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximath.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximatif.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximatran.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximawbmp.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximawmf.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\ximawnd.cpp"
+"C:\Users\xu\Desktop\毕业设计\cximage600_full\CxImage\xmemfile.cpp"
+]
+Creating command line "cl.exe @C:\Users\xu\AppData\Local\Temp\RSP66B8.tmp" 
+Creating temporary file "C:\Users\xu\AppData\Local\Temp\RSP66B9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib /nologo /dll /incremental:no /pdb:"Unicode_Release/cximagecrtu.pdb" /machine:I386 /out:"../../bin/cximagecrtu.dll" /implib:"Unicode_Release/cximagecrtu.lib" 
+".\Unicode_Release\CxImageCrtDll.obj"
+".\Unicode_Release\tif_xfile.obj"
+".\Unicode_Release\ximabmp.obj"
+".\Unicode_Release\ximadsp.obj"
+".\Unicode_Release\ximaenc.obj"
+".\Unicode_Release\ximaexif.obj"
+".\Unicode_Release\ximage.obj"
+".\Unicode_Release\ximagif.obj"
+".\Unicode_Release\ximahist.obj"
+".\Unicode_Release\ximaico.obj"
+".\Unicode_Release\ximainfo.obj"
+".\Unicode_Release\ximaint.obj"
+".\Unicode_Release\ximajas.obj"
+".\Unicode_Release\ximajbg.obj"
+".\Unicode_Release\ximajpg.obj"
+".\Unicode_Release\ximalpha.obj"
+".\Unicode_Release\ximalyr.obj"
+".\Unicode_Release\ximamng.obj"
+".\Unicode_Release\ximapal.obj"
+".\Unicode_Release\ximapcx.obj"
+".\Unicode_Release\ximapng.obj"
+".\Unicode_Release\ximaraw.obj"
+".\Unicode_Release\ximasel.obj"
+".\Unicode_Release\ximaska.obj"
+".\Unicode_Release\ximatga.obj"
+".\Unicode_Release\ximath.obj"
+".\Unicode_Release\ximatif.obj"
+".\Unicode_Release\ximatran.obj"
+".\Unicode_Release\ximawbmp.obj"
+".\Unicode_Release\ximawmf.obj"
+".\Unicode_Release\ximawnd.obj"
+".\Unicode_Release\xmemfile.obj"
+".\Unicode_Release\CxImageCrtDll.res"
+"\Users\xu\Desktop\毕业设计\cximage600_full\jbig\Unicode_Release\jbig.lib"
+"\Users\xu\Desktop\毕业设计\cximage600_full\jpeg\Unicode_Release\Jpeg.lib"
+"\Users\xu\Desktop\毕业设计\cximage600_full\png\Unicode_Release\png.lib"
+"\Users\xu\Desktop\毕业设计\cximage600_full\tiff\Unicode_Release\Tiff.lib"
+"\Users\xu\Desktop\毕业设计\cximage600_full\zlib\Unicode_Release\zlib.lib"
+"\Users\xu\Desktop\毕业设计\cximage600_full\jasper\Unicode_Release\jasper.lib"
+"\Users\xu\Desktop\毕业设计\cximage600_full\mng\Unicode_Release\mng.lib"
+"\Users\xu\Desktop\毕业设计\cximage600_full\raw\Unicode_Release\libdcr.lib"
+]
+Creating command line "link.exe @C:\Users\xu\AppData\Local\Temp\RSP66B9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CxImageCrtDll.cpp
+tif_xfile.cpp
+ximabmp.cpp
+ximadsp.cpp
+ximaenc.cpp
+ximaexif.cpp
+ximage.cpp
+ximagif.cpp
+ximahist.cpp
+ximaico.cpp
+ximainfo.cpp
+ximaint.cpp
+ximajas.cpp
+ximajbg.cpp
+ximajpg.cpp
+ximalpha.cpp
+ximalyr.cpp
+ximamng.cpp
+ximapal.cpp
+ximapcx.cpp
+Generating Code...
+Compiling...
+ximapng.cpp
+ximaraw.cpp
+ximasel.cpp
+ximaska.cpp
+ximatga.cpp
+ximath.cpp
+ximatif.cpp
+ximatran.cpp
+ximawbmp.cpp
+ximawmf.cpp
+ximawnd.cpp
+xmemfile.cpp
+Generating Code...
+Linking...
+   Creating library Unicode_Release/cximagecrtu.lib and object Unicode_Release/cximagecrtu.exp
+
+
+
+<h3>Results</h3>
+cximagecrtu.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

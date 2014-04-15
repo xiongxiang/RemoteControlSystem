@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<ClientConifg>
+    <HostList>
+        <Host Name="Local" Ip="127.0.0.1" Port="8900" />
+        <Host Name="weiyin" Ip="192.168.4.212" Port="8900" />
+        <Host Name="weiyin_new" Ip="192.168.4.212" Port="8900" />
+    </HostList>
+    <Setting>
+        <ImageQuality>60</ImageQuality>
+        <Frame>10</Frame>
+    </Setting>
+</ClientConifg>
